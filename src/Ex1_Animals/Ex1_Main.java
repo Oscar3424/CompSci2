@@ -17,7 +17,5 @@ public class Ex1_Main {
                 allAnimals.get(i).talk();
             }
         }
-
-
     }
 }
