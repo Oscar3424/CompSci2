@@ -16,9 +16,10 @@ class NonMusicEvent extends Event {
         this.rent = r;
     }
 
-
-
-
-
-
+    @Override
+    public String toString() {
+        return super.toString() + " NonMusicEvent{" +
+                "rent=" + rent +
+                '}';
+    }
 }

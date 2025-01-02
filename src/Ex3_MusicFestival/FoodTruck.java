@@ -14,4 +14,10 @@ public class FoodTruck extends NonMusicEvent{
         System.out.println("The amount of food available is " + amount);
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + " FoodTruck{" +
+                "amount=" + amount +
+                '}';
+    }
 }
