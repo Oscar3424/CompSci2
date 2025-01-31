@@ -44,4 +44,15 @@ public abstract class Event {
     public void setLocation(String location) {
         this.location = location;
     }
+
+
+    public String toString() {
+        return "Event{" +
+                "eventID=" + eventID +
+                ", eventName='" + eventName + '\'' +
+                ", eventType='" + eventType + '\'' +
+                ", time='" + time + '\'' +
+                ", location='" + location + '\'' +
+                '}';
+    }
 }//end event

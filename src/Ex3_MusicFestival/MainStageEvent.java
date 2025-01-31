@@ -27,4 +27,10 @@ class MainStageEvent extends Event {
         System.out.println();
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + " MainStageEvent{" +
+                "techRequirements=" + techRequirements +
+                '}';
+    }
 }

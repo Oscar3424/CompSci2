@@ -14,6 +14,10 @@ public class SmallStage extends Event{
 
     }
 
-
-
+    @Override
+    public String toString() {
+        return super.toString() + " SmallStage{" +
+                "artNum=" + artNum +
+                '}';
+    }
 }
