@@ -5,7 +5,7 @@ import TwoDArrays.As1_Bingo;
 import TwoDArrays.Ex1_Golfcard;
 import TwoDArrays.Ex2_Tic;
 import TwoDArrays.MyProgram;
-import TwoDArrays.Sudoku;
+
 
 public class Main {
     public static void main(String[] args) {
