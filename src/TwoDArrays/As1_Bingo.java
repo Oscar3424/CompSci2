@@ -19,6 +19,7 @@ public class As1_Bingo {
 
 
         for (int row = 0; row<bingNumArray.length;row++) {
+            System.out.print(bingoArray[row] + " ");
             for (int col = 0; col < bingNumArray[row].length; col++) {
                 System.out.print(bingNumArray[row][col] + "  ");
             }
