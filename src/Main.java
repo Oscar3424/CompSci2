@@ -14,9 +14,8 @@ public class Main {
 //        Ex2_Main.run(); //restaurants
 //        Ex3_Main.run();
 //        Ex1_Golfcard.run();
- //       Ex2_Tic.run();
-  //      MyProgram.run();
-        As1_Bingo.run();
+//        Ex2_Tic.run();
+//        As1_Bingo.run();
     }
 
 

@@ -1,19 +1,29 @@
 package TwoDArrays;
 
+import java.util.Arrays;
+
 public class As1_Bingo {
     public static void run() {
         char [] bingoArray = {'b','i','n','g','o'};
-        int [][] BingoArray = {
-                generateArray(5,1,15),
-                generateArray(5,16,30),
-                generateArray(5,31,45),
-        generateArray(5,46,60),
-        generateArray(5,61,75)
+//        int [][] bingNumArray = new int[5][5];
+//        bingNumArray[0] = generateArray(5, 1, 15);
+//        bingNumArray[1] = generateArray(5, 16, 30);
+        int[][] bingNumArray = new int[][]{
+                generateArray(5, 1, 15),
+                generateArray(5, 16, 30),
+                generateArray(5, 31, 45),
+                generateArray(5, 46, 60),
+                generateArray(5, 61, 75)
 
         };
-        //newArray [0][0] = new int[][]{generateArray(5, 1, 15),generateArray(5,16,30)};
-        System.out.println(bingoArray);
-        System.out.println(BingoArray);
+
+
+        for (int row = 0; row<bingNumArray.length;row++) {
+            for (int col = 0; col < bingNumArray[row].length; col++) {
+                System.out.print(bingNumArray[row][col] + "  ");
+            }
+            System.out.println();
+        }
 
     }
 

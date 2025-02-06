@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d347db3d-fdc9-4f1b-940f-de355116165b" name="Changes" comment="com">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-01-01,_9_53 p_m__[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-01-01__9_53p_m___Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Inheritance_OL_B4/Ex3_MusicFestival/Ex3_Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Inheritance_OL_B4/Ex3_MusicFestival/Ex3_Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Inheritance_OL_B4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Inheritance_OL_B4/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Inheritance_OL_B4/TwoDArrays/As1_Bingo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Inheritance_OL_B4/TwoDArrays/As1_Bingo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TwoDArrays/As1_Bingo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoDArrays/As1_Bingo.java" afterDir="false" />
     </list>
@@ -25,14 +26,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Oscar3424"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Oscar3424&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Oscar3424/CompSci2.git&quot;,
