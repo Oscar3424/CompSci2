@@ -9,8 +9,8 @@ public class Main {
 //        Ex3_Main.run();
 //        Ex1_Golfcard.run();
 //        Ex2_Tic.run();
-//        As1_Bingo.run();
-        As2_Vigenere.run();
+        As1_Bingo.run();
+//        As2_Vigenere.run();
     }
 
 
