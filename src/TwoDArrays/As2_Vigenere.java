@@ -13,9 +13,9 @@ public class As2_Vigenere {
         char[][] square = new char[alphabet.length][alphabet.length];
         for (int row = 0; row<square.length;row++) {
             for (int col = 0; col<square[row].length; col++){
-                System.out.print(square[row][col]);
+                square[row][col] = alphabet[(col + row) % alphabet.length];
             }
-            System.out.println();
+//            System.out.println();
         }
 
 //code to be written
@@ -25,12 +25,12 @@ public class As2_Vigenere {
     }//createVSquare
 
     public static void printSquare(char[][] square) {
-        System.out.println("  ");
-        for (int row = 0; row < 26; row++){
-            System.out.print("  " + square[0][row]);
-            for (int col = 0; col<26; col++){
-                System.out.println(square[row][col]+"  ");
+        for (int row = 0; row < square.length; row++){
+//            System.out.print("  " + square[0][row]);
+            for (int col = 0; col<square[row].length; col++){
+                System.out.print(square[row][col] + "  ");
             }
+            System.out.println();
         }
 
     }//end printSquare
@@ -43,5 +43,9 @@ public class As2_Vigenere {
         }
         return -1;
     }
+
+//    public static char getChar(char [][] arr , int rw, int cl){
+//        return arr[rw][cl];
+//    }
 
 }

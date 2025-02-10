@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d347db3d-fdc9-4f1b-940f-de355116165b" name="Changes" comment="com">
+    <list default="true" id="d347db3d-fdc9-4f1b-940f-de355116165b" name="Changes" comment="1.2.25">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Inheritance_OL_B4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Inheritance_OL_B4/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Inheritance_OL_B4/TwoDArrays/As2_Vigenere.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Inheritance_OL_B4/TwoDArrays/As2_Vigenere.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoDArrays/As1_Bingo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoDArrays/As1_Bingo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoDArrays/As2_Vigenere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoDArrays/As2_Vigenere.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +153,47 @@
       <option name="project" value="LOCAL" />
       <updated>1738360591860</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1.2.25">
+      <option name="closed" value="true" />
+      <created>1738851334696</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1738851334696</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1.2.25">
+      <option name="closed" value="true" />
+      <created>1738851338710</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1738851338710</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1.2.25">
+      <option name="closed" value="true" />
+      <created>1739053310883</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1739053310883</updated>
+    </task>
+    <task id="LOCAL-00011" summary="1.2.25">
+      <option name="closed" value="true" />
+      <created>1739053314935</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1739053314935</updated>
+    </task>
+    <task id="LOCAL-00012" summary="1.2.25">
+      <option name="closed" value="true" />
+      <created>1739125656900</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1739125656900</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +210,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;out/production/Inheritance_OL_B4/Ex3_MusicFestival/Ex3_Main.class" />
     <MESSAGE value="com" />
-    <option name="LAST_COMMIT_MESSAGE" value="com" />
+    <MESSAGE value="1.2.25" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.2.25" />
   </component>
 </project>
