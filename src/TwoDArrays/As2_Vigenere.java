@@ -6,6 +6,12 @@ public class As2_Vigenere {
                 'L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
         char[][] vigenere =createVSquare(alphabet);
         printSquare(vigenere);
+//        char [] key = {'S','C','O','N','A'};
+        char [] key;
+        char [] word = {'O','G','O','G','T','S','E'};
+        System.out.println("What key?");
+        key = Library.input.nextLine().toCharArray();
+        decypher(vigenere,word,key);
 
     }
 
@@ -43,6 +49,26 @@ public class As2_Vigenere {
         }
         return -1;
     }
+
+    public static void decypher(char [][] arr, char [] coded,char[] key){
+        char [] tempArr;
+        int foundIndex;
+        for (int i = 0; i < key.length; i++) {
+            for (int row = 0; row < arr.length; row++){
+                if(key[i%key.length] == arr[row][0]) {
+                    for (int col = 0; col < arr[row].length; col++) {
+                        if (coded[i] == arr[row][col]){
+                            System.out.println(arr[col][0]);
+                        }
+
+                    }
+                }
+            }
+
+        }
+
+    }
+
 
 //    public static char getChar(char [][] arr , int rw, int cl){
 //        return arr[rw][cl];
