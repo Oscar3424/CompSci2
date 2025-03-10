@@ -1,4 +1,5 @@
 import Ex3_MusicFestival.Ex3_Main;
+import FamilyTree_block4.FamilyTreeMain;
 import TwoDArrays.*;
 
 
@@ -11,7 +12,8 @@ public class Main {
 //        Ex1_Golfcard.run();
 //        Ex2_Tic.run();
 //        As1_Bingo.run();
-        As2_Vigenere.run();
+//        As2_Vigenere.run();
+        FamilyTreeMain.run();
     }
 
 
