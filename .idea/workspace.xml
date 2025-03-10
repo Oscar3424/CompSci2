@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d347db3d-fdc9-4f1b-940f-de355116165b" name="Changes" comment="com">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-02-08,_2_39 p_m__[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-02-08__2_39p_m___Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Inheritance_OL_B4/Ex3_MusicFestival/MainStageEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Inheritance_OL_B4/Ex3_MusicFestival/MainStageEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Inheritance_OL_B4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Inheritance_OL_B4/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Inheritance_OL_B4/TwoDArrays/As2_Vigenere.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Inheritance_OL_B4/TwoDArrays/As2_Vigenere.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Inheritance_OL_B4/TwoDArrays/Sudoku.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoDArrays/As2_Vigenere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoDArrays/As2_Vigenere.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739226365798</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="com">
+      <option name="closed" value="true" />
+      <created>1739566814141</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1739566814141</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -8,7 +8,7 @@ public class As2_Vigenere {
         printSquare(vigenere);
 //        char [] key = {'S','C','O','N','A'};
         char [] key;
-        char [] word = {'O','G','O','G','T','S','E'};
+        char [] word = {'Y','T','O','Q','U','S','V','S'};
         System.out.println("What key?");
         key = Library.input.nextLine().toCharArray();
         decypher(vigenere,word,key);
