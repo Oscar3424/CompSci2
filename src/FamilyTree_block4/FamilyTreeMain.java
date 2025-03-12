@@ -1,5 +1,7 @@
 package FamilyTree_block4;
 
+import TwoDArrays.Library;
+
 import java.util.ArrayList;
 
 public class FamilyTreeMain {
@@ -36,7 +38,7 @@ public class FamilyTreeMain {
 
     public void printFamily( Person ptemp){
         for (int i = 0; i < ptemp.children.size(); i++) {
-
+            printFamily(ptemp.children.get(i));
 
         }
 
@@ -44,7 +46,38 @@ public class FamilyTreeMain {
 
     public static int countFamily( Person pTemp){
         int num = 0;
+        for (int i = 0; i < pTemp.children.size(); i++) {
+            num+= countFamily(pTemp.children.get(i));
+        }
         return num;
+    }
+
+    public static int printCanadian(Person pTemp){
+        int count = 0;
+        for (int i = 0; i < pTemp.children.size(); i++) {
+            if(pTemp.country.equals("Canadian")){
+                count += printCanadian(pTemp.children.get(i));
+            }
+
+        }
+
+        return count;
+    }
+
+    public static int printFromHere(Person pTemp){
+        String answer1;
+        System.out.println("What family member name?");
+        answer1 = Library.input.nextLine();
+        for (int i = 0; i < pTemp.children.size(); i++) {
+            if(
+
+            )
+        }
+        if(pTemp.children.get(i)){
+
+        }
+
+
     }
 
 
