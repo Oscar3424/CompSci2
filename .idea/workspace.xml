@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d347db3d-fdc9-4f1b-940f-de355116165b" name="Changes" comment="com">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Inheritance_OL_B4/FamilyTree_block4/FamilyTreeMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Inheritance_OL_B4/FamilyTree_block4/FamilyTreeMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Inheritance_OL_B4/FamilyTree_block4/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Inheritance_OL_B4/FamilyTree_block4/Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FamilyTree_block4/FamilyTreeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FamilyTree_block4/FamilyTreeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FamilyTree_block4/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FamilyTree_block4/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

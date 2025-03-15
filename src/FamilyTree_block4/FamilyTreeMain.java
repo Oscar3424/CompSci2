@@ -33,10 +33,16 @@ public class FamilyTreeMain {
         //gen 4
         person1.children.get(1).children.get(0).children.get(0).summonChild(new Person("Oscar IV", "Canada"));
 
+        printFamily(person1);
+        String answer1;
+        System.out.println("What family member name?");
+        answer1 = Library.input.nextLine();
+        printFromHere(person1,answer1);
 
     }//run
 
-    public void printFamily( Person ptemp){
+    public static void printFamily( Person ptemp){
+        System.out.println(ptemp.name);
         for (int i = 0; i < ptemp.children.size(); i++) {
             printFamily(ptemp.children.get(i));
 
@@ -55,7 +61,7 @@ public class FamilyTreeMain {
     public static int printCanadian(Person pTemp){
         int count = 0;
         for (int i = 0; i < pTemp.children.size(); i++) {
-            if(pTemp.country.equals("Canadian")){
+            if(pTemp.children.get(i).country.equals("Canadian")){
                 count += printCanadian(pTemp.children.get(i));
             }
 
@@ -64,16 +70,13 @@ public class FamilyTreeMain {
         return count;
     }
 
-    public static int printFromHere(Person pTemp){
-        String answer1;
-        System.out.println("What family member name?");
-        answer1 = Library.input.nextLine();
-        for (int i = 0; i < pTemp.children.size(); i++) {
-            if(
+    public static void printFromHere(Person pTemp, String answer1){
 
-            )
+        if(pTemp.name.equals(answer1)){
+            printFamily(pTemp);
         }
-        if(pTemp.children.get(i)){
+        for (int i = 0; i < pTemp.children.size(); i++) {
+            printFromHere(pTemp.children.get(i), answer1);
 
         }
 

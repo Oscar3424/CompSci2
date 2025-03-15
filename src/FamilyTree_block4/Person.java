@@ -16,6 +16,7 @@ public class Person {
 //        allChildren = new Person[4];
     }
 
+
     public void summonChild(Person p){
         children.add(p);
     }
