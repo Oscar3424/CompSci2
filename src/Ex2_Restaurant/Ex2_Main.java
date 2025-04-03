@@ -11,10 +11,9 @@ public class Ex2_Main {
 
         allEmp.add(new Manager("Suzie",49000,"555 555 556"));
         allEmp.add(new Manager("Gurdeep" ,24000,"555 555 557") );
+
         for (int i = 0; i < allEmp.size(); i++) {
             System.out.println("This months pay for " + allEmp.get(i).getName() + " is $" + allEmp.get(i).getPay());
-
-
         }
 
 

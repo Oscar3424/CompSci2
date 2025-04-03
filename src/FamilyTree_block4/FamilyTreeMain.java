@@ -33,11 +33,14 @@ public class FamilyTreeMain {
         //gen 4
         person1.children.get(1).children.get(0).children.get(0).summonChild(new Person("Oscar IV", "Canada"));
 
+        System.out.println(countFamily(person1));
+        printCanadian(person1);
         printFamily(person1);
         String answer1;
         System.out.println("What family member name?");
         answer1 = Library.input.nextLine();
         printFromHere(person1,answer1);
+
 
     }//run
 
@@ -52,22 +55,21 @@ public class FamilyTreeMain {
 
     public static int countFamily( Person pTemp){
         int num = 0;
+        num+= 1;
         for (int i = 0; i < pTemp.children.size(); i++) {
-            num+= countFamily(pTemp.children.get(i));
+            num += countFamily(pTemp.children.get(i));
         }
         return num;
     }
 
-    public static int printCanadian(Person pTemp){
-        int count = 0;
+    public static void printCanadian(Person pTemp){
         for (int i = 0; i < pTemp.children.size(); i++) {
             if(pTemp.children.get(i).country.equals("Canadian")){
-                count += printCanadian(pTemp.children.get(i));
+                System.out.println(pTemp.children.get(i).name);
             }
 
         }
 
-        return count;
     }
 
     public static void printFromHere(Person pTemp, String answer1){
