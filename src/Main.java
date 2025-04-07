@@ -1,3 +1,4 @@
+import AdvancedStringMethodsAssignment.As1_Main;
 import Ex3_MusicFestival.Ex3_Main;
 import FamilyTree_block4.FamilyTreeMain;
 import TwoDArrays.*;
@@ -13,7 +14,8 @@ public class Main {
 //        Ex2_Tic.run();
 //        As1_Bingo.run();
 //        As2_Vigenere.run();
-        FamilyTreeMain.run();
+//        FamilyTreeMain.run();
+        As1_Main.run();
     }
 
 
