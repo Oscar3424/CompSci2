@@ -8,7 +8,10 @@ public class NetworkMessage {
     public NetworkMessage(String n){
         machineType = n.substring(0,n.indexOf(":") - 1);
         machineId = n.substring(n.indexOf(":") - 1, n.indexOf(":"));
-        warning = n.substring(n.indexOf(":"), n.length()).trim();
+//        warning = n.substring(n.indexOf(":"), n.length()).trim();
+//        if(n.contains(":")){
+            warning = n.substring(n.indexOf(":") + 1).replaceAll("^\\s+|\\s+$", "");
+
 
 
     }
@@ -30,9 +33,19 @@ public class NetworkMessage {
         return warning;
     }
 
-//    boolean scanWarning(String name){
-//
-//    }
+    public boolean scanWarning(String keyword){
+        if(warning.contains(keyword + " ") || warning.contains(" " + keyword) || warning.contains(" " + keyword +" ") || warning.equals(keyword) ){
+            return true;
+        }
+//        if(warning.contains(keyword)){
+//            return true;
+//        }
+        else{
+            return false;
+        }
+
+
+    }
 
 
 

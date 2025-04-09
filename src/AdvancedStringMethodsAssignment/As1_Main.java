@@ -53,9 +53,15 @@ public class As1_Main {
                 String answer = "";
                 System.out.println("What error do you want to find?");
                 answer = Library.input.nextLine();
-//                for (int i = 0; i < allMessages.size(); i++) {
-//
-//                }
+
+                for (int i = 0; i < allMessages.size(); i++) {
+                    if(allMessages.get(i).scanWarning(answer)){
+                        System.out.println(allMessages.get(i).toString());
+                    }
+
+
+
+                }
 
 
             } else if (option == 4) {
@@ -66,6 +72,7 @@ public class As1_Main {
             System.out.println("Logging out. Good Bye.");        }//while
 
     }//main
+
 
 
 
