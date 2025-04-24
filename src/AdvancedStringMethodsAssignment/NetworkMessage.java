@@ -34,15 +34,15 @@ public class NetworkMessage {
     }
 
     public boolean scanWarning(String keyword){
-        if(warning.contains(keyword + " ") || warning.contains(" " + keyword) || warning.contains(" " + keyword +" ") || warning.equals(keyword) ){
+        if(warning.startsWith(keyword + " ")){
             return true;
         }
 //        if(warning.contains(keyword)){
 //            return true;
 //        }
-        else{
-            return false;
-        }
+
+        return false;
+
 
 
     }
